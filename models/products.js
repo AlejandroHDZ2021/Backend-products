@@ -9,7 +9,8 @@ const productSchema = new Schema({
   },
   description: String,
   sku: Number,
-  price: Number
+  price: Number,
+  image: String
 }, {
   versionKey: false,
   timestamps: true
